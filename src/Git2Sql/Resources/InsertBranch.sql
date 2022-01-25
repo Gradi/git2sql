@@ -1,0 +1,22 @@
+INSERT INTO "Branches"
+    (
+        "CanonicalName",
+        "FriendlyName",
+        "IsRemote",
+        "IsTracking",
+        "IsCurrentRepositoryHead",
+        "CommitId",
+        "RemoteBranchCanonicalName",
+        "RemoteBranchFriendlyName"
+    )
+VALUES
+    (
+        $canonicalName,
+        $friendlyName,
+        $isRemote,
+        $isTracking,
+        $isCurrentRepositoryHead,
+        $commitId,
+        $remoteBranchCanonicalName,
+        $remoteBranchFriendlyName
+    )

@@ -1,0 +1,24 @@
+INSERT INTO "Tags"
+    (
+        "CanonicalName",
+        "FriendlyName",
+        "IsAnnotated",
+        "AnnotatedName",
+        "AnnotatedMessage",
+        "AnnotatedTaggerName",
+        "AnnotatedTaggerEmail",
+        "AnnotatedTaggerDateTime",
+        "TargetId"
+    )
+VALUES
+    (
+        $canonicalName,
+        $friendlyName,
+        $isAnnotated,
+        $annotatedName,
+        $annotatedMessage,
+        $annotatedTaggerName,
+        $annotatedTaggerEmail,
+        $annotatedTaggerDateTime,
+        $targetId
+    )
