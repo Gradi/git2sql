@@ -1,7 +1,7 @@
 module Git2Sql.SqliteDatabase
 
-open Microsoft.Data.Sqlite
 open LibGit2Sharp
+open Microsoft.Data.Sqlite
 
 open SqliteHelpers
 

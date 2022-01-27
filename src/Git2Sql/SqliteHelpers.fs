@@ -1,7 +1,7 @@
 module Git2Sql.SqliteHelpers
 
-open System
 open Microsoft.Data.Sqlite
+open System
 
 let command commandText (connection: SqliteConnection)  =
     let command = connection.CreateCommand ()
